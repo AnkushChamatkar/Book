@@ -40,8 +40,8 @@ public class contactPageTest extends listnerClass {
 		cp.captcha();
 	}
 	
-//	@Test (priority = 8)
-//	public void saveAndSubmitButton () {
-//		cp.saveAndSubmit();
-//	}
+	@Test (priority = 8)
+	public void saveAndSubmitButton () {
+		cp.saveAndSubmit();
+	}
 }
