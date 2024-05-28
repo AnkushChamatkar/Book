@@ -1,0 +1,8 @@
+testClasses\contactPageTest.class
+testClasses\baseTest.class
+testClasses\budgetAndTimelineTest.class
+utility\captureScreenshot.class
+testClasses\projectDetailsTest.class
+testClasses\designPageTest.class
+utility\ExtentReporterNG.class
+utility\listnerClass.class
