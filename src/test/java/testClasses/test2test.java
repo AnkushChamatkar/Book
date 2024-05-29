@@ -6,8 +6,8 @@ import utility.listnerClass;
 
 public class test2test extends listnerClass {
 	
-	@Test(priority = 1)
-	public void Test()  {
+	@Test
+	public void Test() throws Exception   {
 		t.test();
 	}
 
