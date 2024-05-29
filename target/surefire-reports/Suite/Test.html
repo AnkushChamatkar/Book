@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 28 12:05:01 IST 2024</td>
+<td>Started on:</td><td>Wed May 29 19:51:29 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>43 seconds (43754 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1557 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,110 +76,101 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testClasses.designPageTest.giveDescription()'><b>giveDescription</b><br>Test class: testClasses.designPageTest</td>
-<td></td>
+<td title='testClasses.test2test.Test()'><b>Test</b><br>Test class: testClasses.test2test</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=125.0.2535.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [76f218fdb9168bc3232de7def45f83ac, isElementDisplayed {id=f.13FF79325445C2DD0378846234E3669B.d.91DCCCABCBF8B4AA9FADAE8579456F35.e.13}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50156}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\ANKUSH~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50156/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (76f218fdb9168bc3232de7def45f83ac)] -&gt; xpath: (//*[@class=&apos;artist__info-wrap&apos;])]
+Session ID: 76f218fdb9168bc3232de7def45f83ac
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:283)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	at pageClasses.test2.test(test2.java:44)
+	at testClasses.test2test.Test(test2test.java:11)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1777381620", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1777381620'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=125.0.2535.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [76f218fdb9168bc3232de7def45f83ac, isElementDisplayed {id=f.13FF79325445C2DD0378846234E3669B.d.91DCCCABCBF8B4AA9FADAE8579456F35.e.13}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50156}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\ANKUSH~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50156/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (76f218fdb9168bc3232de7def45f83ac)] -&gt; xpath: (//*[@class=&apos;artist__info-wrap&apos;])]
+Session ID: 76f218fdb9168bc3232de7def45f83ac
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:283)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	at pageClasses.test2.test(test2.java:44)
+	at testClasses.test2test.Test(test2test.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
 <td>1</td>
-<td>testClasses.designPageTest@7ae42ce3</td></tr>
-<tr>
-<td title='testClasses.contactPageTest.hereFrom()'><b>hereFrom</b><br>Test class: testClasses.contactPageTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.contactPageTest@484094a5</td></tr>
-<tr>
-<td title='testClasses.projectDetailsTest.sizeSelection()'><b>sizeSelection</b><br>Test class: testClasses.projectDetailsTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.projectDetailsTest@3fed2870</td></tr>
-<tr>
-<td title='testClasses.projectDetailsTest.placeSelection()'><b>placeSelection</b><br>Test class: testClasses.projectDetailsTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.projectDetailsTest@3fed2870</td></tr>
-<tr>
-<td title='testClasses.projectDetailsTest.locationSelection()'><b>locationSelection</b><br>Test class: testClasses.projectDetailsTest</td>
-<td></td>
-<td>6</td>
-<td>testClasses.projectDetailsTest@3fed2870</td></tr>
-<tr>
-<td title='testClasses.designPageTest.buttonClick()'><b>buttonClick</b><br>Test class: testClasses.designPageTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.designPageTest@7ae42ce3</td></tr>
-<tr>
-<td title='testClasses.contactPageTest.representation()'><b>representation</b><br>Test class: testClasses.contactPageTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.contactPageTest@484094a5</td></tr>
-<tr>
-<td title='testClasses.contactPageTest.giveMobNo()'><b>giveMobNo</b><br>Test class: testClasses.contactPageTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.contactPageTest@484094a5</td></tr>
-<tr>
-<td title='testClasses.contactPageTest.givePersonalCredentials()'><b>givePersonalCredentials</b><br>Test class: testClasses.contactPageTest</td>
-<td></td>
-<td>1</td>
-<td>testClasses.contactPageTest@484094a5</td></tr>
-<tr>
-<td title='testClasses.projectDetailsTest.projectNameTest()'><b>projectNameTest</b><br>Test class: testClasses.projectDetailsTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.projectDetailsTest@3fed2870</td></tr>
-<tr>
-<td title='testClasses.budgetAndTimelineTest.settingDeadline()'><b>settingDeadline</b><br>Test class: testClasses.budgetAndTimelineTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.budgetAndTimelineTest@4f5991f6</td></tr>
-<tr>
-<td title='testClasses.designPageTest.designProcessSelection()'><b>designProcessSelection</b><br>Test class: testClasses.designPageTest</td>
-<td></td>
-<td>3</td>
-<td>testClasses.designPageTest@7ae42ce3</td></tr>
-<tr>
-<td title='testClasses.projectDetailsTest.categorySelection()'><b>categorySelection</b><br>Test class: testClasses.projectDetailsTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.projectDetailsTest@3fed2870</td></tr>
-<tr>
-<td title='testClasses.designPageTest.fileAttachment()'><b>fileAttachment</b><br>Test class: testClasses.designPageTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.designPageTest@7ae42ce3</td></tr>
-<tr>
-<td title='testClasses.contactPageTest.countrySelection()'><b>countrySelection</b><br>Test class: testClasses.contactPageTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.contactPageTest@484094a5</td></tr>
-<tr>
-<td title='testClasses.budgetAndTimelineTest.buttonClick()'><b>buttonClick</b><br>Test class: testClasses.budgetAndTimelineTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.budgetAndTimelineTest@4f5991f6</td></tr>
-<tr>
-<td title='testClasses.projectDetailsTest.propertySelection()'><b>propertySelection</b><br>Test class: testClasses.projectDetailsTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.projectDetailsTest@3fed2870</td></tr>
-<tr>
-<td title='testClasses.designPageTest.tagSelection()'><b>tagSelection</b><br>Test class: testClasses.designPageTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.designPageTest@7ae42ce3</td></tr>
-<tr>
-<td title='testClasses.budgetAndTimelineTest.settingBudget()'><b>settingBudget</b><br>Test class: testClasses.budgetAndTimelineTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.budgetAndTimelineTest@4f5991f6</td></tr>
-<tr>
-<td title='testClasses.contactPageTest.termsAgrement()'><b>termsAgrement</b><br>Test class: testClasses.contactPageTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.contactPageTest@484094a5</td></tr>
-<tr>
-<td title='testClasses.projectDetailsTest.buttonClick()'><b>buttonClick</b><br>Test class: testClasses.projectDetailsTest</td>
-<td></td>
-<td>0</td>
-<td>testClasses.projectDetailsTest@3fed2870</td></tr>
+<td>testClasses.test2test@141e5bef</td></tr>
 </table><p>
 </body>
 </html>

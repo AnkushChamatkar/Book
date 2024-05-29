@@ -19,6 +19,7 @@ import pageClasses.budgetAndTimeline;
 import pageClasses.contactInfoPage;
 import pageClasses.designPage;
 import pageClasses.projectDetailPage;
+import pageClasses.test2;
 
 
 
@@ -29,6 +30,8 @@ public class baseTest {
 	public designPage dp;
 	public budgetAndTimeline bat;
 	public contactInfoPage cp;
+	
+	public test2 t;
 	
 	
 	@BeforeSuite
@@ -64,6 +67,7 @@ public class baseTest {
          dp = new designPage(driver);
          bat = new budgetAndTimeline(driver);
          cp = new contactInfoPage(driver);
+         t = new test2(driver);
 	}
 	
 

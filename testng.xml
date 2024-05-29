@@ -4,10 +4,11 @@
 		<listeners><listener class-name="utility.listnerClass"></listener></listeners>
   <test thread-count="5" name="Test" parallel="none">
     <classes>
-      <class name="testClasses.projectDetailsTest"/>
-      <class name="testClasses.designPageTest"/>
+     <!-- <class name="testClasses.projectDetailsTest"/>
+       <class name="testClasses.designPageTest"/>
       <class name="testClasses.budgetAndTimelineTest"/>
-      <class name="testClasses.contactPageTest"/>
+      <class name="testClasses.contactPageTest"/>-->
+      <class name="testClasses.test2test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
